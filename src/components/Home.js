@@ -1,10 +1,9 @@
 import { Grid, GridColumn, Header } from "semantic-ui-react";
+import Wallpaper from "./Wallpaper";
 
 const Home = () => (
-    <Grid>
-        <GridColumn>
-            <Header>Website is coming</Header>
-        </GridColumn>
-    </Grid>
+    <>
+        <Wallpaper />
+    </>
 )
 export default Home
