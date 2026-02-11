@@ -41,7 +41,7 @@ const Wallpaper = () => (
                 </Button>
             </GridColumn>
             <GridColumn width={7} textAlign="right">
-                <Image floated="right" size="massive" inline src={photo} />
+                <Image floated="right" size="massive" src={photo} />
             </GridColumn>
         </Grid>
     </Segment>
