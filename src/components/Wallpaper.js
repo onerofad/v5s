@@ -1,9 +1,7 @@
 import { Button, Grid, GridColumn, Header, HeaderSubheader, Image, Menu, MenuItem, Segment } from "semantic-ui-react";
 import photo from '../images/photo.avif'
-import owa from '../images/owa.jpg'
 import logo from '../images/logo.png'
 
-const colors=["brown"]
 const Wallpaper = () => (
     <Segment basic inverted size="huge" style={{padding: "40px 100px"}}>
         <Grid columns={2}>
